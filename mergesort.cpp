@@ -51,8 +51,13 @@ void mergeSort(int low, int high)
 
     // step 3
     // fungsi rekursi = memanggil diri sendiri
-    mergeSort(low, mid); // step 3a
-    mergeSort(mid + 1, high); // step 3b
+    mergeSort(low, mid); // step 3.a
+    mergeSort(mid + 1, high); // step 3.b
+
+    // step 4
+    int i = low; // step 4.a
+    int j = mid + 1; // step 4.b
+    int k = low; // step 4.c
 
 
 }
