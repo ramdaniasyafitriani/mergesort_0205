@@ -6,13 +6,6 @@ int arr[20], B[20];
 // n is array input size
 int n;
 
-#include<iostream>
-using namespace std;
-
-// Create main and temporary array
-int arr[20], B[20];
-int n;
-
 void input() {
     while (true) 
     {
@@ -103,5 +96,12 @@ void output()
         cout << arr[i] << " ";
     }
     cout << endl;
+}
+
+int main()
+{
+    input();
+    mergeSort(0, n - 1);
+    output();
 }
 
